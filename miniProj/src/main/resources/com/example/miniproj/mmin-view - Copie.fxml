@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="552.0" prefWidth="774.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniproj.impressionController">
+   <children>
+      <BorderPane layoutX="-8.0" prefHeight="90.0" prefWidth="678.0" />
+      <TableView fx:id="tableImp" layoutY="87.0" prefHeight="355.0" prefWidth="518.0">
+        <columns>
+            <TableColumn fx:id="nomImp1" prefWidth="55.33334219455719" text="Cin" />
+          <TableColumn fx:id="nomImp" prefWidth="90.5" text="SName" />
+          <TableColumn fx:id="prenImp" minWidth="68.66665649414062" prefWidth="91.0" text="FName" />
+            <TableColumn fx:id="adrImp" minWidth="62.6666259765625" prefWidth="90.0" text="Adress" />
+            <TableColumn fx:id="telImp" prefWidth="88.0" text="Phone" />
+            <TableColumn fx:id="genreImp" prefWidth="102.0" text="Sexe" />
+        </columns>
+         <opaqueInsets>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </opaqueInsets>
+      </TableView>
+      <Pane layoutX="537.0" layoutY="78.0" prefHeight="343.0" prefWidth="266.0">
+         <children>
+            <TextField fx:id="nomIp" layoutX="96.0" layoutY="93.0" prefHeight="25.0" prefWidth="127.0" />
+            <Label layoutX="5.0" layoutY="97.0" prefHeight="17.0" prefWidth="51.0" text="SName" />
+            <TextField fx:id="prenIp" layoutX="95.0" layoutY="141.0" prefHeight="25.0" prefWidth="127.0" />
+            <Label layoutX="5.0" layoutY="145.0" prefHeight="17.0" prefWidth="63.0" text="FName" />
+            <TextField fx:id="adrIp" layoutX="95.0" layoutY="183.0" prefHeight="25.0" prefWidth="127.0" />
+            <TextField fx:id="telIp" layoutX="95.0" layoutY="229.0" prefHeight="25.0" prefWidth="127.0" />
+            <Label layoutX="5.0" layoutY="187.0" prefHeight="17.0" prefWidth="63.0" text="Adress" />
+            <Label layoutX="7.0" layoutY="233.0" prefHeight="17.0" prefWidth="92.0" text="Phone" />
+            <RadioButton fx:id="ghIp" layoutX="81.0" layoutY="295.0" mnemonicParsing="false" text="Homme">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="gfIp" layoutX="149.0" layoutY="286.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="84.0" text="Femme">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </RadioButton>
+            <Label layoutX="21.0" layoutY="293.0" text="Sexe" />
+            <TextField fx:id="nomIp1" layoutX="96.0" layoutY="49.0" prefHeight="25.0" prefWidth="127.0" />
+            <Label layoutX="5.0" layoutY="53.0" prefHeight="17.0" prefWidth="63.0" text="Cin" />
+         </children>
+      </Pane>
+      <Button fx:id="suppIp" layoutX="545.0" layoutY="443.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="92.0" style="-fx-background-color: #FFCCCB;" text="Cancel" />
+      <Button fx:id="valideIp" layoutX="668.0" layoutY="443.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="92.0" style="-fx-background-color: #90EE90;" text="OK" />
+   </children>
+</AnchorPane>

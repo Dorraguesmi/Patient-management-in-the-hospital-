@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="441.0" prefWidth="634.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniproj.gestionMedPatController">
+   <children>
+      <TableView fx:id="listmedpat" layoutX="24.0" layoutY="90.0" prefHeight="275.0" prefWidth="321.0">
+         <columns>
+            <TableColumn fx:id="crefmed" prefWidth="172.5" text="Reference Medecine" />
+            <TableColumn fx:id="ccinpat" prefWidth="147.5" text="Cin Patient" />
+         </columns>
+         <opaqueInsets>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </opaqueInsets>
+      </TableView>
+      <Pane layoutX="293.0" layoutY="96.0" prefHeight="179.0" prefWidth="309.0">
+         <children>
+            <Label layoutX="88.0" layoutY="72.0" prefHeight="17.0" prefWidth="134.0" text="Reference Medecine" />
+            <Label layoutX="88.0" layoutY="117.0" prefHeight="17.0" prefWidth="134.0" text="Cin Patient" />
+            <TextField fx:id="refmedTextField" layoutX="234.0" layoutY="68.0" prefHeight="25.0" prefWidth="90.0" />
+            <TextField fx:id="cinpatTextField" layoutX="234.0" layoutY="113.0" prefHeight="25.0" prefWidth="90.0" />
+         </children>
+      </Pane>
+      <Button fx:id="enregp" layoutX="14.0" layoutY="384.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="90.0" style="-fx-background-color: #ADD8E6;" text="Add" />
+      <Button fx:id="modifp" layoutX="127.0" layoutY="384.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="90.0" style="-fx-background-color: #B7E1A1;" text="Edit" />
+      <Button fx:id="suppp" layoutX="233.0" layoutY="384.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="100.0" style="-fx-background-color: #0D98BA;" text="Delete" />
+   </children>
+</AnchorPane>

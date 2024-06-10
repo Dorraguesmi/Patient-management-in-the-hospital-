@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="553.0" prefWidth="676.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniproj.MiniController">
+   <children>
+      <Label layoutX="123.0" layoutY="104.0" prefHeight="55.0" prefWidth="563.0" textFill="#240b0b">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Label layoutX="252.0" layoutY="406.0" prefHeight="0.0" prefWidth="244.0" text="Forget Password ?" textFill="#090505">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="106.0" layoutY="258.0" text="Password : " textFill="#190e0e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nom" layoutX="238.0" layoutY="201.0" prefHeight="25.0" prefWidth="227.0" />
+      <Label layoutX="106.0" layoutY="204.0" text="UserName : " textFill="#090505">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="mdpp" layoutX="238.0" layoutY="255.0" prefHeight="25.0" prefWidth="227.0" />
+      <Button fx:id="connexion" layoutX="288.0" layoutY="305.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="123.0" style="-fx-background-color: #355E3B;" text="Connexion">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Button>
+      <Label layoutX="173.0" layoutY="65.0" prefHeight="78.0" prefWidth="402.0" text="Hospital Management :" textFill="#000000b8">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

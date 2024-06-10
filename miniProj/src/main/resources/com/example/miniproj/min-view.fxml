@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="551.0" prefWidth="793.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniproj.gestionPatientController">   <children>
+      <TableView fx:id="listpt" layoutX="6.0" layoutY="69.0" prefHeight="355.0" prefWidth="498.0">
+        <columns>
+            <TableColumn fx:id="cnomp1" prefWidth="57.999969482421875" text="Cin" />
+          <TableColumn fx:id="cnomp" prefWidth="68.66665649414062" text="SName" />
+          <TableColumn fx:id="cprenp" minWidth="65.33334350585938" prefWidth="94.0" text="FName" />
+            <TableColumn fx:id="cadrp" minWidth="62.0" prefWidth="66.0" text="Adress" />
+            <TableColumn fx:id="ctelp" prefWidth="110.0" text="Phone" />
+            <TableColumn fx:id="cgenrep" prefWidth="110.0" text="Sexe" />
+        </columns>
+         <opaqueInsets>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </opaqueInsets>
+      </TableView>
+      <Button fx:id="suppp" layoutX="255.0" layoutY="451.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="101.0" style="-fx-background-color:  #00A36C;" text="Delete" />
+      <Button fx:id="modifp" layoutX="119.0" layoutY="451.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="101.0" style="-fx-background-color: #00FFFF;" text="Edit" />
+      <Button fx:id="enregp" layoutX="9.0" layoutY="451.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="92.0" style="-fx-background-color:  #2AAA8A;" text="Add" />
+      <Button fx:id="impp" layoutX="390.0" layoutY="451.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="101.0" style="-fx-background-color: #0000FF;" text="Print" />
+
+    <Pane layoutX="519.0" layoutY="114.0" prefHeight="291.0" prefWidth="309.0">
+         <children>
+            <TextField fx:id="nomp" layoutX="88.0" layoutY="68.0" prefHeight="25.0" prefWidth="164.0" />
+            <Label layoutX="-11.0" layoutY="72.0" prefHeight="17.0" prefWidth="51.0" text="SName" />
+            <TextField fx:id="prenp" layoutX="87.0" layoutY="117.0" prefHeight="25.0" prefWidth="164.0" />
+            <Label layoutX="-5.0" layoutY="121.0" prefHeight="17.0" prefWidth="63.0" text="FName" />
+            <TextField fx:id="adrp" layoutX="87.0" layoutY="165.0" prefHeight="25.0" prefWidth="164.0" />
+            <TextField fx:id="telp" layoutX="87.0" layoutY="214.0" prefHeight="25.0" prefWidth="164.0" />
+            <Label layoutX="-5.0" layoutY="169.0" prefHeight="17.0" prefWidth="63.0" text="Adress" />
+            <Label layoutX="-3.0" layoutY="218.0" prefHeight="17.0" prefWidth="92.0" text="Phone" />
+            <Label layoutX="11.0" layoutY="261.0" text="Sexe" />
+            <RadioButton fx:id="gh" layoutX="80.0" layoutY="263.0" mnemonicParsing="false" text="Man">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="gf" layoutX="163.0" layoutY="263.0" mnemonicParsing="false" text="Woman">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </RadioButton>
+            <TextField fx:id="nomp1" layoutX="88.0" layoutY="21.0" prefHeight="25.0" prefWidth="164.0" />
+            <Label layoutX="1.0" layoutY="25.0" prefHeight="17.0" prefWidth="51.0" text="Cin" />
+         </children>
+      </Pane>
+      <Button fx:id="impp1" layoutX="592.0" layoutY="14.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="135.0" style="-fx-background-color: #d3d3d3;" text="List Medecines" />
+      <Label layoutX="45.0" layoutY="15.0" prefHeight="30.0" prefWidth="299.0" text="List Patients :" textFill="#000000d2">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
